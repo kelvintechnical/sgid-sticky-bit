@@ -1,11 +1,11 @@
 # Lab: Configure SGID and Sticky Bit — Shared Directories Done Safely
 
-**Series:** linux-ops-mastery — RHCSA Permissions, Special Bits & ACLs
-**Subjects covered:** Set-GID on directories (inherit group ownership of new entries), sticky bit on world-writable directories (`+t`), `chmod g+s`, `chmod +t`, `chmod 2770` / `1777`, interpreting `ls -ld` (`s` in group triplet, `t` at end), collaboration patterns without world-readable data
-**Career arcs covered:** RHCSA (special permission bits on directories), RHCE (playbook `mode: '2775'`), SRE (`/tmp` incident analysis), DevOps (multi-tenant build drop directories), AI/MLOps (shared scratch volumes for batch jobs)
-**Prerequisite:** Labs 40–41 — standard modes and `chown`/`chgrp` are comfortable
-**Time Estimate:** 30 to 45 minutes
-**Difficulty arc:** Task 1 baseline shared dir · 2 enable SGID and observe group inheritance · 3 break inheritance without SGID (contrast) · 4 sticky bit on public write dir · 5 numeric `2770` / `1777` fluency · 6 capstone drop-box + cleanup
+- **Series:** linux-ops-mastery — RHCSA Permissions, Special Bits & ACLs
+- **Subjects covered:** Set-GID on directories (inherit group ownership of new entries), sticky bit on world-writable directories (`+t`), `chmod g+s`, `chmod +t`, `chmod 2770` / `1777`, interpreting `ls -ld` (`s` in group triplet, `t` at end), collaboration patterns without world-readable data
+- **Career arcs covered:** RHCSA (special permission bits on directories), RHCE (playbook `mode: '2775'`), SRE (`/tmp` incident analysis), DevOps (multi-tenant build drop directories), AI/MLOps (shared scratch volumes for batch jobs)
+- **Prerequisite:** Labs 40–41 — standard modes and `chown`/`chgrp` are comfortable
+- **Time Estimate:** 30 to 45 minutes
+- **Difficulty arc:** Task 1 baseline shared dir · 2 enable SGID and observe group inheritance · 3 break inheritance without SGID (contrast) · 4 sticky bit on public write dir · 5 numeric `2770` / `1777` fluency · 6 capstone drop-box + cleanup
 
 ---
 
